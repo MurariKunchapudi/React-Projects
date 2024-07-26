@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: #150424;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+    color: #ffffff;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly
+}
+
+.startStopButton {
+    padding: 10px 20px;
+    background-color: #fd48fd;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.resetButton {
+    padding: 10px 20px;
+    background-color: grey;
+    border-radius: 5px;
+    color: #ffffff;
+}
