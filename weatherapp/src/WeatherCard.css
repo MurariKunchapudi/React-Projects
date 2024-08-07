@@ -1,0 +1,31 @@
+.weatherCard {
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: #454145;
+}
+
+.mainWeather {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.weatherType {
+    text-align: end;
+    min-width: 90px;
+}
+
+.temperatureInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
